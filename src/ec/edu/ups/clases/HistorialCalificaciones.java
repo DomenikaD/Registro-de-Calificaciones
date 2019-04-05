@@ -11,13 +11,16 @@ package ec.edu.ups.clases;
  */
 public class HistorialCalificaciones {
     
+    //Atributos
     private Materia materia;
     private Estudiante estudiante;
     private int aprovechamiento1;
     private int examen1;
-     private int aprovechamiento2;
+    private int aprovechamiento2;
     private int examen2;
-
+    
+   
+    //Getters & Setters
     public Materia getMateria() {
         return materia;
     }
@@ -66,6 +69,7 @@ public class HistorialCalificaciones {
         this.examen2 = examen2;
     }
 
+    //toString
     @Override
     public String toString() {
         return "HistorialCalificaciones{" + "materia=" + materia + ", estudiante=" + estudiante + ", aprovechamiento1=" + aprovechamiento1 + ", examen1=" + examen1 + ", aprovechamiento2=" + aprovechamiento2 + ", examen2=" + examen2 + '}';

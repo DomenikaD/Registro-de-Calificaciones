@@ -11,6 +11,7 @@ package ec.edu.ups.clases;
  */
 public class Persona {
     
+    //Atributos
     private int codigo;
     private String nombre;
     private String cedula;
@@ -19,6 +20,7 @@ public class Persona {
     private String correo;
     private Sede sede;
 
+    //Getters & Setters
     public int getCodigo() {
         return codigo;
     }
@@ -75,6 +77,7 @@ public class Persona {
         this.sede = sede;
     }
 
+    //toString
     @Override
     public String toString() {
         return "Persona{" + "codigo=" + codigo + ", nombre=" + nombre + ", cedula=" + cedula + ", telefono=" + telefono + ", direccion=" + direccion + ", correo=" + correo + ", sede=" + sede + '}';

@@ -11,9 +11,14 @@ package ec.edu.ups.clases;
  */
 public class Profesor extends Persona{
     
+    //Atributos
     private String titulo;
     private double salario;
     private String cargo;
+    
+    public Profesor (){
+        
+    }
 
     //Getters & Setters
     public String getTitulo() {

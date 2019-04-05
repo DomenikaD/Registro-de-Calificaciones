@@ -13,6 +13,7 @@ import java.util.List;
  */
 public class Carrera {
     
+    //Atributos
     private int codigo;
     private String nombre;
     private List<Materia> materias;
@@ -20,6 +21,8 @@ public class Carrera {
     private int numeroEstudiantes;
     private String titulo;
 
+    
+    //Getters & Setters
     public int getCodigo() {
         return codigo;
     }
@@ -68,6 +71,7 @@ public class Carrera {
         this.titulo = titulo;
     }
 
+    //toString
     @Override
     public String toString() {
         return "Carrera{" + "codigo=" + codigo + ", nombre=" + nombre + ", materias=" + materias + ", numeroSemestres=" + numeroSemestres + ", numeroEstudiantes=" + numeroEstudiantes + ", titulo=" + titulo + '}';

@@ -11,6 +11,7 @@ package ec.edu.ups.clases;
  */
 public class Materia {
     
+    //Atributos
     private int codigo;
     private String nombre;
     private int numeroCreditos;

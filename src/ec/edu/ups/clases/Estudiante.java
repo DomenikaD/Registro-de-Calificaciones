@@ -14,9 +14,11 @@ public class Estudiante extends Persona {
     //Atributo
     private Carrera carrera;
 
+    
     public Estudiante(){
         
     }
+    
     
     //Getters & Setters
     public Carrera getCarrera() {

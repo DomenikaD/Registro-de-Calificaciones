@@ -13,12 +13,15 @@ import java.util.List;
  */
 public class Sede {
     
+    //Atributos
     private int codigo;
     private String nombre;
     private String direccion;
     private String telefono;
     private List<Carrera> carreras;
 
+    
+    //Getters & Setters
     public int getCodigo() {
         return codigo;
     }
@@ -59,6 +62,7 @@ public class Sede {
         this.carreras = carreras;
     }
 
+    //toString
     @Override
     public String toString() {
         return "Sede{" + "codigo=" + codigo + ", nombre=" + nombre + ", direccion=" + direccion + ", telefono=" + telefono + ", carreras=" + carreras + '}';
