@@ -9,10 +9,16 @@ package ec.edu.ups.clases;
  *
  * @author Domenika Delgado
  */
-public class Estudiante {
+public class Estudiante extends Persona {
     
+    //Atributo
     private Carrera carrera;
 
+    public Estudiante(){
+        
+    }
+    
+    //Getters & Setters
     public Carrera getCarrera() {
         return carrera;
     }
@@ -21,6 +27,8 @@ public class Estudiante {
         this.carrera = carrera;
     }
 
+    
+    //toString
     @Override
     public String toString() {
         return "Estudiante{" + "carrera=" + carrera + '}';

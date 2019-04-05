@@ -9,12 +9,13 @@ package ec.edu.ups.clases;
  *
  * @author Domenika Delgado
  */
-public class Profesor {
+public class Profesor extends Persona{
     
     private String titulo;
     private double salario;
     private String cargo;
 
+    //Getters & Setters
     public String getTitulo() {
         return titulo;
     }
@@ -39,6 +40,7 @@ public class Profesor {
         this.cargo = cargo;
     }
 
+    //toString
     @Override
     public String toString() {
         return "Profesor{" + "titulo=" + titulo + ", salario=" + salario + ", cargo=" + cargo + '}';
