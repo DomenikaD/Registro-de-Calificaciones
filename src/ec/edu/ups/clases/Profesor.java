@@ -16,9 +16,28 @@ public class Profesor extends Persona{
     private double salario;
     private String cargo;
     
+    //Metodo Constructor
     public Profesor (){
         
     }
+
+    public Profesor(int codigo) {
+        super(codigo);
+    }
+
+    public Profesor(int codigo, String nombre, String cedula) {
+        super(codigo, nombre, cedula);
+    }
+
+    //Constructor con todos los atributos de clase Persona(Padre) y de clase Profesor
+    public Profesor(String titulo, double salario, String cargo, int codigo, String nombre, String cedula, String telefono, String direccion, String correo, Sede sede) {
+        super(codigo, nombre, cedula, telefono, direccion, correo, sede);
+        this.titulo = titulo;
+        this.salario = salario;
+        this.cargo = cargo;
+    }
+    
+    
 
     //Getters & Setters
     public String getTitulo() {

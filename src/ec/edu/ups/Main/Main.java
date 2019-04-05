@@ -5,6 +5,8 @@
  */
 package ec.edu.ups.Main;
 
+import ec.edu.ups.clases.Estudiante;
+
 /**
  *
  * @author Domenika Delgado
@@ -15,6 +17,17 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        Estudiante estudiante = new Estudiante();
+        estudiante.setCodigo(1);
+        estudiante.setNombre("Sofia");
+        estudiante.setCedula("1717273401");
+        estudiante.setDireccion("24 de mayo");
+        estudiante.setTelefono("0999700282");
+        estudiante.setCorreo("sofia12@gmail.com");
+      
+        
+        
        
         
     }

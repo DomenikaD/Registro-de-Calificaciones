@@ -14,10 +14,32 @@ public class Estudiante extends Persona {
     //Atributo de Estudiante
     private Carrera carrera;
 
-    
+    //Metodo Constructor
     public Estudiante(){
         
     }
+    
+    public Estudiante(int codigo){
+       super(codigo);
+    }
+    
+    
+    public Estudiante(int codigo, String nombre, String cedula){
+        //Hace referencia a los atributos del padre y le pasa el constructor con esos atributos
+      super(codigo, nombre, cedula);
+    }
+
+    
+    //Constructor con todos los parametros
+    public Estudiante(Carrera carrera, int codigo, String nombre, String cedula, String telefono, String direccion, String correo, Sede sede) {
+        //Atributos del padre(Persona)
+        super(codigo, nombre, cedula, telefono, direccion, correo, sede);
+        //Atributos propios(Estudiante)
+        this.carrera = carrera;
+    }
+
+    
+    
     
     
     //Getters & Setters

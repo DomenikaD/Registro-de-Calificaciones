@@ -19,6 +19,35 @@ public class Persona {
     private String direccion;
     private String correo;
     private Sede sede;
+    
+    
+    //Constructores
+    public Persona() {
+    }
+
+    public Persona(int codigo) {
+        this.codigo = codigo;
+    }
+
+    public Persona(int codigo, String nombre, String cedula) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.cedula = cedula;
+    }
+
+    //Constructor con todo Parametros
+    public Persona(int codigo, String nombre, String cedula, String telefono, String direccion, String correo, Sede sede) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.cedula = cedula;
+        this.telefono = telefono;
+        this.direccion = direccion;
+        this.correo = correo;
+        this.sede = sede;
+    }
+    
+    
+   
 
     //Getters & Setters
     public int getCodigo() {
