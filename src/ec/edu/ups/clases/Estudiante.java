@@ -11,7 +11,7 @@ package ec.edu.ups.clases;
  */
 public class Estudiante extends Persona {
     
-    //Atributo
+    //Atributo de Estudiante
     private Carrera carrera;
 
     

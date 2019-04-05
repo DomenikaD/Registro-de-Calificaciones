@@ -7,7 +7,7 @@ package ec.edu.ups.Main;
 
 /**
  *
- * @author Estudiante
+ * @author Domenika Delgado
  */
 public class Main {
 
