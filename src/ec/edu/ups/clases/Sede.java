@@ -20,15 +20,8 @@ public class Sede {
     private String telefono;
     private List<Carrera> carreras;
 
-    
-    //Getters & Setters
-    public int getCodigo() {
-        return codigo;
-    }
 
     //Constructor
-    
-    
     public Sede(int codigo, String nombre, String direccion, String telefono) {
         this.codigo = codigo;
         this.nombre = nombre;
@@ -36,6 +29,11 @@ public class Sede {
         this.telefono = telefono;
     }
 
+    //Getters & Setters
+    public int getCodigo() {
+        return codigo;
+    }
+    
     public void setCodigo(int codigo) {
         this.codigo = codigo;
     }

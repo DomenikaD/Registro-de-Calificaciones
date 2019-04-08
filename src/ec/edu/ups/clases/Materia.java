@@ -20,8 +20,6 @@ public class Materia {
     private Grupo grupo;
     private Profesor profesor;
 
-    
-    
 
     //Constructor
     public Materia(int codigo, String nombre, int numeroCreditos, int numeroHoras, int nivel) {

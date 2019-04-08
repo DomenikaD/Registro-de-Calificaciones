@@ -11,14 +11,25 @@ package ec.edu.ups.clases;
  */
 public class HistorialCalificacionEstudiante {
     
-    
-    //creado y agregado obejtos --> crear un lista para cada estudiante (4 listas de tipo historialCalificacion --> calificacion de cada materia un objeto para cada materia  mostrar todo el consola la informacion --> clases con listas se hace con el . add -->  clases sin lista se hace normal
     //Atributos
     private Materia materia;
     private int aprovechamiento1;
     private int examen1;
     private int aprovechamiento2;
     private int examen2;
+    
+    //Constructor
+    public HistorialCalificacionEstudiante() {
+    }
+
+    public HistorialCalificacionEstudiante(Materia materia, int aprovechamiento1, int examen1, int aprovechamiento2, int examen2) {
+        this.materia = materia;
+        this.aprovechamiento1 = aprovechamiento1;
+        this.examen1 = examen1;
+        this.aprovechamiento2 = aprovechamiento2;
+        this.examen2 = examen2;
+    }
+    
     
    
     //Getters & Setters

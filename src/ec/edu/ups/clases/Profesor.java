@@ -39,10 +39,6 @@ public class Profesor extends Persona{
     }
 
     
-    
-    
-    
-
     //Getters & Setters
     public String getTitulo() {
         return titulo;

@@ -22,15 +22,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       /*Crear 2 profesore
-        4 estudiantes
-        2 grupos
-        Constructores
-        2 materias a cada carrera (distintas 
-        a materias agregan un grupo y un profesor (set grupo y set profesor)
-        Agregar todas la carreras a la Sede de Cuenca */
-        
-        
+     
         //Instanciar mediante un constructor y ya no es necesario llamar a los sets
         //Intanciar Sede
         Sede sedeCuenca = new Sede(1, "Sede Cuenca", "Calle Vieja 12-30", "302454");

@@ -22,11 +22,6 @@ public class Carrera {
     private String titulo;
 
     
-    //Getters & Setters
-    public int getCodigo() {
-        return codigo;
-    }
-    
     //Constructor
     public Carrera(int codigo, String nombre, int numeroSemestres, int numeroEstudiantes, String titulo) {
         this.codigo = codigo;
@@ -36,6 +31,10 @@ public class Carrera {
         this.titulo = titulo;
     }
     
+    //Getters & Setters
+    public int getCodigo() {
+        return codigo;
+    }
 
     public void setCodigo(int codigo) {
         this.codigo = codigo;
