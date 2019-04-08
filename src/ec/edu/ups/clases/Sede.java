@@ -26,6 +26,16 @@ public class Sede {
         return codigo;
     }
 
+    //Constructor
+    
+    
+    public Sede(int codigo, String nombre, String direccion, String telefono) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.telefono = telefono;
+    }
+
     public void setCodigo(int codigo) {
         this.codigo = codigo;
     }

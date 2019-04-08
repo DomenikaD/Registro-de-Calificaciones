@@ -26,6 +26,16 @@ public class Carrera {
     public int getCodigo() {
         return codigo;
     }
+    
+    //Constructor
+    public Carrera(int codigo, String nombre, int numeroSemestres, int numeroEstudiantes, String titulo) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.numeroSemestres = numeroSemestres;
+        this.numeroEstudiantes = numeroEstudiantes;
+        this.titulo = titulo;
+    }
+    
 
     public void setCodigo(int codigo) {
         this.codigo = codigo;

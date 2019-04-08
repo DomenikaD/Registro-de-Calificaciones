@@ -9,11 +9,12 @@ package ec.edu.ups.clases;
  *
  * @author Domenika Delgado
  */
-public class HistorialCalificaciones {
+public class HistorialCalificacionEstudiante {
     
+    
+    //creado y agregado obejtos --> crear un lista para cada estudiante (4 listas de tipo historialCalificacion --> calificacion de cada materia un objeto para cada materia  mostrar todo el consola la informacion --> clases con listas se hace con el . add -->  clases sin lista se hace normal
     //Atributos
     private Materia materia;
-    private Estudiante estudiante;
     private int aprovechamiento1;
     private int examen1;
     private int aprovechamiento2;
@@ -29,14 +30,7 @@ public class HistorialCalificaciones {
         this.materia = materia;
     }
 
-    public Estudiante getEstudiante() {
-        return estudiante;
-    }
-
-    public void setEstudiante(Estudiante estudiante) {
-        this.estudiante = estudiante;
-    }
-
+  
     public int getAprovechamiento1() {
         return aprovechamiento1;
     }
@@ -70,10 +64,13 @@ public class HistorialCalificaciones {
     }
 
     //toString
+
     @Override
     public String toString() {
-        return "HistorialCalificaciones{" + "materia=" + materia + ", estudiante=" + estudiante + ", aprovechamiento1=" + aprovechamiento1 + ", examen1=" + examen1 + ", aprovechamiento2=" + aprovechamiento2 + ", examen2=" + examen2 + '}';
+        return "HistorialCalificacionEstudiante{" + "materia=" + materia + ", aprovechamiento1=" + aprovechamiento1 + ", examen1=" + examen1 + ", aprovechamiento2=" + aprovechamiento2 + ", examen2=" + examen2 + '}';
     }
+
+  
     
     
     

@@ -21,11 +21,21 @@ public class Materia {
     private Profesor profesor;
 
     
+    
+
+    //Constructor
+    public Materia(int codigo, String nombre, int numeroCreditos, int numeroHoras, int nivel) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.numeroCreditos = numeroCreditos;
+        this.numeroHoras = numeroHoras;
+        this.nivel = nivel;
+    }
+    
     //Getters & Setters
     public int getCodigo() {
         return codigo;
     }
-
     public void setCodigo(int codigo) {
         this.codigo = codigo;
     }
