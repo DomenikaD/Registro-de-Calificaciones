@@ -109,7 +109,25 @@ public class Main {
         estudiante3.agregarCarrera(carreraMecatronica);
         estudiante3.agregarCarrera(carreraTelematica);
         
+        
+        
+        //Impresion en Consola
         System.out.println(sedeCuenca.toString());
+        System.out.println(carreraComputacion.toString());
+        System.out.println(carreraMecatronica.toString());
+        System.out.println(carreraTelematica.toString());
+        System.out.println(materiaAlgebra.toString());
+        System.out.println(materiaAntropologia.toString());
+        System.out.println(materiaCalculo.toString());
+        System.out.println(materiaCalculo1.toString());
+        System.out.println(materiaFisica.toString());
+        System.out.println(materiaQuimica.toString());
+        System.out.println(estudiante1.toString());
+        System.out.println(estudiante2.toString());
+        System.out.println(estudiante3.toString());
+        System.out.println(estudiante4.toString());
+        
+        
         
     }
 
