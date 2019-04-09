@@ -5,6 +5,7 @@
  */
 package ec.edu.ups.clases;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -23,14 +24,18 @@ public class Carrera {
 
     
     //Constructor
+    
+    
     public Carrera(int codigo, String nombre, int numeroSemestres, int numeroEstudiantes, String titulo) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.numeroSemestres = numeroSemestres;
         this.numeroEstudiantes = numeroEstudiantes;
         this.titulo = titulo;
+        materias = new ArrayList<>();
     }
-    
+
+
     //Getters & Setters
     public int getCodigo() {
         return codigo;
@@ -81,10 +86,13 @@ public class Carrera {
     }
 
     //toString
+
     @Override
     public String toString() {
         return "Carrera{" + "codigo=" + codigo + ", nombre=" + nombre + ", materias=" + materias + ", numeroSemestres=" + numeroSemestres + ", numeroEstudiantes=" + numeroEstudiantes + ", titulo=" + titulo + '}';
     }
+    
+    
     
     
     

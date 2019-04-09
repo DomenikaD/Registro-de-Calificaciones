@@ -18,7 +18,7 @@ public class Persona {
     private String telefono;
     private String direccion;
     private String correo;
-   // private Sede sede;
+    private Sede sede;
     
     
     //Constructor
@@ -36,14 +36,14 @@ public class Persona {
     }
 
     //Constructor con todo Parametros
-    public Persona(int codigo, String nombre, String cedula, String telefono, String direccion, String correo) {
+    public Persona(int codigo, String nombre, String cedula, String telefono, String direccion, String correo, Sede sede) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.cedula = cedula;
         this.telefono = telefono;
         this.direccion = direccion;
         this.correo = correo;
-        //this.sede = sede;
+        this.sede = sede;
     }
 
 
@@ -96,18 +96,21 @@ public class Persona {
         this.correo = correo;
     }
 
-//    public Sede getSede() {
-//        return sede;
-//    }
-//
-//    public void setSede(Sede sede) {
-//        this.sede = sede;
-//    }
+    public Sede getSede() {
+        return sede;
+    }
+
+    public void setSede(Sede sede) {
+        this.sede = sede;
+  }
 
     //toString
+
     @Override
     public String toString() {
-        return "Persona{" + "codigo=" + codigo + ", nombre=" + nombre + ", cedula=" + cedula + ", telefono=" + telefono + ", direccion=" + direccion + ", correo=" + correo + '}';
+        return "Persona{" + "codigo=" + codigo + ", nombre=" + nombre + ", cedula=" + cedula + ", telefono=" + telefono + ", direccion=" + direccion + ", correo=" + correo + ", sede=" + sede + '}';
     }
+
+    
     
     }

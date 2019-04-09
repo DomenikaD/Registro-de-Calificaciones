@@ -29,7 +29,7 @@ public class Materia {
         this.numeroHoras = numeroHoras;
         this.nivel = nivel;
     }
-    
+
     //Getters & Setters
     public int getCodigo() {
         return codigo;
@@ -88,10 +88,12 @@ public class Materia {
     
     
     //toString
+
     @Override
     public String toString() {
         return "Materia{" + "codigo=" + codigo + ", nombre=" + nombre + ", numeroCreditos=" + numeroCreditos + ", numeroHoras=" + numeroHoras + ", nivel=" + nivel + ", grupo=" + grupo + ", profesor=" + profesor + '}';
     }
+   
     
     
 }

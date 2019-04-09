@@ -31,12 +31,14 @@ public class Profesor extends Persona{
 
     //Constructor con todos los atributos de clase Persona(Padre) y de clase Profesor
 
-    public Profesor(String titulo, double salario, String cargo, int codigo, String nombre, String cedula, String telefono, String direccion, String correo) {
-        super(codigo, nombre, cedula, telefono, direccion, correo);
+    public Profesor(String titulo, double salario, String cargo, int codigo, String nombre, String cedula, String telefono, String direccion, String correo, Sede sede) {
+        super(codigo, nombre, cedula, telefono, direccion, correo, sede);
         this.titulo = titulo;
         this.salario = salario;
         this.cargo = cargo;
     }
+
+
 
     
     //Getters & Setters
@@ -67,14 +69,14 @@ public class Profesor extends Persona{
     
     //toString
     @Override
-    public String toString() {
+    public String toString(){
         return "Profesor{" + "titulo=" + titulo + ", salario=" + salario + ", cargo=" + cargo + '}';
-    }
-    
-    //Metodo salario
-    public double getSalario(int horasTrabajadas, double valorPorHora){
-        return salario + (horasTrabajadas * valorPorHora);
         
+    }
+
+    //Metodo salario
+    public double getSalario(int horasTrabajadas, double valorPorHora) {
+        return salario + (horasTrabajadas * valorPorHora);
     }
     
     public double getSalario1(int horasTrabajadas, double comision){
