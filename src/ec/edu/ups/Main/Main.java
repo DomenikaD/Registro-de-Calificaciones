@@ -63,14 +63,16 @@ public class Main {
         Grupo grupo6 = new Grupo(6, "Fisica", 15);
         
         
+        
+        //********************Agregacion********************
+        
         //Sede
         sedeCuenca.agregarCarrera(carreraComputacion);
         sedeCuenca.agregarCarrera(carreraTelematica);
         sedeCuenca.agregarCarrera(carreraMecatronica);
         
-        
-        
-        //Carrera
+ 
+        //Carreras
         carreraComputacion.agregarMateria(materiaAlgebra);
         carreraComputacion.agregarMateria(materiaAntropologia);
         
@@ -78,9 +80,10 @@ public class Main {
         carreraMecatronica.agregarMateria(materiaQuimica);
         
         carreraTelematica.agregarMateria(materiaCalculo);
-        carreraTelematica.agregarMateria(materiaQuimica);
+        carreraTelematica.agregarMateria(materiaFisica);
         
-        //Profesor
+        
+        //Profesores
         materiaAlgebra.agregarProfe(profesorLuis);
         materiaAntropologia.agregarProfe(profesorPablo);
         materiaCalculo.agregarProfe(profesorLuis);
@@ -89,9 +92,24 @@ public class Main {
         materiaQuimica.agregarProfe(profesorPablo);
         
         
+        //Grupos
+        materiaAlgebra.agregarGrupo(grupo5);
+        materiaAntropologia.agregarGrupo(grupo5);
+        
+        materiaCalculo.agregarGrupo(grupo5);
+        materiaFisica.agregarGrupo(grupo5);
+        
+        materiaCalculo1.agregarGrupo(grupo6);
+        materiaQuimica.agregarGrupo(grupo6);
+        
+        
+        //Estudiante
+        estudiante1.agregarCarrera(carreraTelematica);
+        estudiante2.agregarCarrera(carreraComputacion);
+        estudiante3.agregarCarrera(carreraMecatronica);
+        estudiante3.agregarCarrera(carreraTelematica);
         
         System.out.println(sedeCuenca.toString());
-  
         
     }
 
