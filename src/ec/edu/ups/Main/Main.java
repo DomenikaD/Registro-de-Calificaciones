@@ -63,11 +63,27 @@ public class Main {
         Grupo grupo6 = new Grupo(6, "Fisica", 15);
         
         
-        //Metodo para Agregar (ArrayList)
-        
+        //Sede
         sedeCuenca.agregarCarrera(carreraComputacion);
         sedeCuenca.agregarCarrera(carreraTelematica);
         sedeCuenca.agregarCarrera(carreraMecatronica);
+        
+        
+        
+        //Carrera
+        carreraComputacion.agregarMateria(materiaAlgebra);
+        carreraComputacion.agregarMateria(materiaAntropologia);
+        
+        carreraMecatronica.agregarMateria(materiaCalculo1);
+        carreraMecatronica.agregarMateria(materiaQuimica);
+        
+        carreraTelematica.agregarMateria(materiaCalculo);
+        carreraTelematica.agregarMateria(materiaQuimica);
+        
+      
+        
+        
+        
         
         
         System.out.println(sedeCuenca.toString());

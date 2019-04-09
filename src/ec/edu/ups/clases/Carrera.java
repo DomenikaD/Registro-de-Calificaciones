@@ -92,6 +92,9 @@ public class Carrera {
         return "Carrera{" + "codigo=" + codigo + ", nombre=" + nombre + ", materias=" + materias + ", numeroSemestres=" + numeroSemestres + ", numeroEstudiantes=" + numeroEstudiantes + ", titulo=" + titulo + '}';
     }
     
+    public void agregarMateria(Materia materia){
+        materias.add(materia);
+    }
     
     
     
