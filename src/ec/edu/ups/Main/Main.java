@@ -46,8 +46,8 @@ public class Main {
         
         
         //Profesores
-        Profesor profesorMate = new Profesor("Ingeniero de Sistemas", 800, "Profesor", 20, "Pablo", "1717273401", "0998702282", "Av. Las Americas", "pablo@ups.edu.ec", sedeCuenca);
-        Profesor profesorFisica = new Profesor("Ingeniero de Sistema", 700, "Profesor", 22, "Luis", "1717273441", "0999957578", "24 de Mayo", "luis@ups.edu.ec", sedeCuenca);
+        Profesor profesorPablo = new Profesor("Ingeniero de Sistemas", 800, "Profesor", 20, "Pablo", "1717273401", "0998702282", "Av. Las Americas", "pablo@ups.edu.ec", sedeCuenca);
+        Profesor profesorLuis = new Profesor("Ingeniero de Sistema", 700, "Profesor", 22, "Luis", "1717273441", "0999957578", "24 de Mayo", "luis@ups.edu.ec", sedeCuenca);
         
         
                 
@@ -80,9 +80,13 @@ public class Main {
         carreraTelematica.agregarMateria(materiaCalculo);
         carreraTelematica.agregarMateria(materiaQuimica);
         
-      
-        
-        
+        //Profesor
+        materiaAlgebra.agregarProfe(profesorLuis);
+        materiaAntropologia.agregarProfe(profesorPablo);
+        materiaCalculo.agregarProfe(profesorLuis);
+        materiaCalculo1.agregarProfe(profesorLuis);
+        materiaFisica.agregarProfe(profesorPablo);
+        materiaQuimica.agregarProfe(profesorPablo);
         
         
         
